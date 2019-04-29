@@ -26,6 +26,12 @@
     height:100%;
 }
 
+.choice-grid div.checkedItem {
+	background-color: #cfe3ff;
+}
+.choice-grid div.uncheckedItem {
+	opacity: 0.6;
+}
 
 @media (max-width: 500px) {
     .choice-grid div {
@@ -42,3 +48,32 @@
     }
 }
 
+
+
+
+.bottom {
+	margin: 20px 0;
+	padding: 20px;
+	border: 1px solid #dcdcdc; 
+	box-sizing: border-box;
+}
+
+.bottom h1{
+	font-size: larger;
+	margin: 0;
+}
+
+.bottom p {
+	margin: 18px 0;
+}
+
+.bottom button {
+    font-size: 120%;
+    background-color: #cecece;
+    width: 100%;
+    height: 50px;
+}
+
+.bottom button:hover {
+	background-color: #e0e0e0;
+}
